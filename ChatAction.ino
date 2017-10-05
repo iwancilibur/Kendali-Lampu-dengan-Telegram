@@ -1,17 +1,14 @@
 /*******************************************************************
-*  An example of bot that show bot action message.                *
-*                                                                 *
-*                                                                 *
-*                                                                 *
-*  written by Vadim Sinitski                                      *
+Modified By : iwan Cilibur
+Company : interactive Robotics
  *******************************************************************/
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
 
 // Initialize Wifi connection to the router
-char ssid[] = "xxxxx";     // your network SSID (name)
-char password[] = "xxxxx"; // your network key
+char ssid[] = "xxxxx";     // isi dengan SSID Access point atau router atau tethering HP mu
+char password[] = "xxxxx"; // isi password Wifimu
 
 // Initialize Telegram BOT
 #define BOTtoken "xxxxxx"  // your Bot Token (Get from Botfather)
